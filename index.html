@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Harry | The Coded Crusader</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="avatar">< iHarry/ ></h1>
+      <div id="hamburger-nav">
+        <span class="patties"></span><span class="patties"></span
+        ><span class="patties"></span>
+      </div>
+      <nav>
+        <span id="cross-nav">x</span>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="workexperiences.html">work experiences</a></li>
+          <li><a href="blogs.html">blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro-illustration">
+        <h1 id="intro">
+          <div id="intro-wrapper">
+            <div id="dynamic-text-div">
+              <span class="intro-names"></span>
+            </div>
+            <div id="still-text-div">
+              <span id="intro-titles"> a web developer, a content writer</span>
+              <span id="intro-cc">and the caped coded crusader at night.</span>
+            </div>
+          </div>
+        </h1>
+        <div id="illustration">
+          <lottie-player
+            src="https://assets3.lottiefiles.com/packages/lf20_Yiahbq.json"
+            background="transparent"
+            speed="1"
+            style="width: 500px; height: 500px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </section>
+      <section id="skills-section">
+        <h2>My Skills</h2>
+        <p>I'm familiar with HTML, CSS, JavaScript and Python.</p>
+        <ul id="progress-bars-section">
+          <li class="inner-pb-section">
+            <strong>HTML</strong>
+            <div class="progress-bars" id="html-pb"></div>
+          </li>
+          <li class="inner-pb-section">
+            <strong>CSS</strong>
+            <div class="progress-bars" id="css-pb"></div>
+          </li>
+          <li class="inner-pb-section">
+            <strong>JavaScript</strong>
+            <div class="progress-bars" id="js-pb"></div>
+          </li>
+          <li class="inner-pb-section">
+            <strong>Python</strong>
+            <div class="progress-bars" id="py-pb"></div>
+          </li>
+        </ul>
+      </section>
+      <section id="project-section">
+        <h2>Projects</h2>
+        <p>
+          Take a look at the projects I've made on my way in this web developing
+          jounery.
+        </p>
+        <div id="projects-container-sec">
+          <div class="projects-sec">
+            <h3>
+              <a
+                href="https://github.com/iHarryD/rock-paper-scissor"
+                target="_blank"
+                >Rock, Paper, Scissor</a
+              >
+            </h3>
+            <p class="project-description-sec">
+              Simple rock, paper, scissor game built with HTML, CSS and
+              VanillaJS.
+            </p>
+          </div>
+          <div class="projects-sec">
+            <h3>
+              <a
+                href="https://github.com/iHarryD/neoG-markTwelve"
+                target="_blank"
+                >Fun with Triangles</a
+              >
+            </h3>
+            <p class="project-description-sec">
+              markTwelve for neoG bootcamp: a simple web app with several
+              triangle related stuffs.
+            </p>
+          </div>
+          <div class="projects-sec">
+            <h3>
+              <a
+                href="https://github.com/iHarryD/neoG-markFourteen"
+                target="_blank"
+                >Stonk Broker</a
+              >
+            </h3>
+            <p class="project-description-sec">
+              markFourteen for neoG bootcamp: an app to calculate profit/loss
+              for stocks.
+            </p>
+          </div>
+        </div>
+        <button onclick="location.href='projects.html'">show more</button>
+      </section>
+      <section id="blog-section">
+        <h2>Blogs</h2>
+        <p>
+          Being a content writer has it's own perks. Read my blogs, related to
+          web developing, here.
+        </p>
+        <div id="blogs-container-sec">
+          <div class="blogs-sec">
+            <h3>Will be uploaded soon</h3>
+            <p class="blog-description-sec">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              perspiciatis vel, officia ullam voluptatum delectus. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Est voluptatibus
+              facere labore accusantium laboriosam iste rem doloribus
+              consequatur assumenda architecto.
+            </p>
+            <a href="">read more</a>
+          </div>
+          <div class="blogs-sec">
+            <h3>Will be uploaded soon</h3>
+            <p class="blog-description-sec">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              perspiciatis vel, officia ullam voluptatum delectus. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Est voluptatibus
+              facere labore accusantium laboriosam iste rem doloribus
+              consequatur assumenda architecto.
+            </p>
+            <a href="">read more</a>
+          </div>
+          <div class="blogs-sec">
+            <h3>Will be uploaded soon</h3>
+            <p class="blog-description-sec">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              perspiciatis vel, officia ullam voluptatum delectus. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Est voluptatibus
+              facere labore accusantium laboriosam iste rem doloribus
+              consequatur assumenda architecto.
+            </p>
+            <a href="">read more</a>
+          </div>
+        </div>
+        <button onclick="location.href='blogs.html'">show more</button>
+      </section>
+    </main>
+    <footer>
+      <div id="connect-with-me">
+        <p>connect with me on:</p>
+        <a target="_blank" href="https://github.com/iHarryD"
+          ><img src="images/github.svg" alt="" /></a
+        ><a target="_blank" href="https://www.instagram.com/spectre_within/"
+          ><img src="images/instagram.svg" alt="" /></a
+        ><a
+          target="_blank"
+          href="https://www.linkedin.com/in/prashant-kumar-a97251195/"
+          ><img src="images/linkedin.svg" alt="" /></a
+        ><a target="_blank" href="mailto:iharryd9@gmail.com"
+          ><img src="images/at.svg" alt=""
+        /></a>
+      </div>
+      <p id="dates-in-footer">
+        <span>created on: 19/09/21</span> <span>last updated on: 27/09/21</span>
+      </p>
+    </footer>
+  </body>
+</html>
