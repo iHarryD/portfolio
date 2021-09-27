@@ -11,7 +11,7 @@ const gitReposAPI = `https://api.github.com/users/${gitUsername}/repos`;
 const projectLiveLinks = {
   "neoG-markOne": "replit.com/@iHarryD/neoG-markOne?embed=1&output=1#index.js",
   "neoG-markTwo": "replit.com/@iHarryD/neoG-markTwo?embed=1&output=1#index.js",
-  "neoG-markNine": "iharryd.github.io/csb-qeboz/",
+  "neoG-markNine": "iharryd.github.io/csb-0gu5x/",
   "neoG-markEight": "iharryd.github.io/csb-w3jt5/",
 };
 
