@@ -9,8 +9,8 @@ const gitUsername = "iHarryD";
 const gitReposAPI = `https://api.github.com/users/${gitUsername}/repos`;
 
 const projectLiveLinks = {
-  "neoG-markOne": "replit.com/@iHarryD/neoG-markOne#index.js",
-  "neoG-markTwo": "replit.com/@iHarryD/neoG-markTwo#index.js",
+  "neoG-markOne": "replit.com/@iHarryD/neoG-markOne?embed=1&output=1#index.js",
+  "neoG-markTwo": "replit.com/@iHarryD/neoG-markTwo?embed=1&output=1#index.js",
   "neoG-markNine": "iharryd.github.io/csb-qeboz/",
   "neoG-markEight": "iharryd.github.io/csb-w3jt5/",
 };
@@ -102,7 +102,7 @@ function createProject(
   project.appendChild(projectDate);
   project.appendChild(projectButtonsDiv);
   projectsMenu.appendChild(project);
-  if (repoName.slice(0, 3) === "csb" || repoName.slice(0, 3) === "per") {
+  if (repoName.slice(0, 3) === "csb" || repoName === "portfolio") {
     project.classList.add("project-hide");
   }
 }
