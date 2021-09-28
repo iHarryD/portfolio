@@ -8,7 +8,7 @@ const searchFilterProject = document.getElementById("search-pr");
 const projectLiveLinks = {
   "neoG-markOne": "replit.com/@iHarryD/neoG-markOne#index.js",
   "neoG-markTwo": "replit.com/@iHarryD/neoG-markTwo#index.js",
-  "neoG-markNine": "iharryd.github.io/csb-qeboz/",
+  "neoG-markNine": "iharryd.github.io/csb-0gu5x/",
   "neoG-markEight": "iharryd.github.io/csb-w3jt5/",
 };
 
