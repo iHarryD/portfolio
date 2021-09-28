@@ -68,7 +68,7 @@ function createProject(
   let projectCodeButton = document.createElement("button");
   projectCodeButton.classList.add("project-view-code-btn");
   projectCodeButton.innerText = "View Code";
-  projectCodeButton.setAttribute("onclick", `location.href='${repoCodeLink}'`);
+  projectCodeButton.setAttribute("onClick", `window.open('${repoCodeLink}', '_blank'`);
   let projectLiveButton = document.createElement("button");
   projectLiveButton.classList.add("project-show-live-site-btn");
   projectLiveButton.innerText = "Live Site";
