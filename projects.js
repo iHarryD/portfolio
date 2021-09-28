@@ -68,13 +68,13 @@ function createProject(
   let projectCodeButton = document.createElement("button");
   projectCodeButton.classList.add("project-view-code-btn");
   projectCodeButton.innerText = "View Code";
-  projectCodeButton.setAttribute("onClick", `window.open('${repoCodeLink}', '_blank'`);
+  projectCodeButton.setAttribute("onClick", `window.open('${repoCodeLink}', '_blank')`);
   let projectLiveButton = document.createElement("button");
   projectLiveButton.classList.add("project-show-live-site-btn");
   projectLiveButton.innerText = "Live Site";
   projectLiveButton.setAttribute(
-    "onclick",
-    `location.href='http://${repoLiveSite}'`
+    "onClick",
+    `window.open('http://${repoLiveSite}', '_blank')`
   );
   projectButtonsDiv.appendChild(projectCodeButton);
   projectButtonsDiv.appendChild(projectLiveButton);
