@@ -593,6 +593,10 @@ footer {
   #blog-section button {
     margin: 1em 0;
   }
+  
+  .searching-filter input {
+    width: 100px;
+  }
 }
 
 .search-hide {
