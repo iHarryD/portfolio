@@ -17,7 +17,7 @@
   --fs-h2: clamp(1.8rem, 1vw + 1.5rem, 2.5rem);
   --fs-h3: clamp(1.4rem, 1vw + 1rem, 2rem);
   --fs-p: clamp(1rem, 1vw + 0.5rem, 1.1rem);
-  --accent-clr: #812BB2;
+  --accent-clr: #31084E;
   --secondary-accent-clr: #35506B;
   --main-font-clr: #D1D7E0;
   --main-ff: "Quicksand", sans-serif;
@@ -62,7 +62,6 @@ body {
 
 nav {
   font-size: 1.13rem;
-  color: var(--main-font-clr);
   font-weight: 600;
 }
 
@@ -103,7 +102,7 @@ section > p {
 
 #intro-titles {
   font-weight: 600;
-  color: #ff737e;
+  color: var(--secondary-accent-clr);
 }
 
 #intro-titles {
@@ -175,7 +174,7 @@ header {
 .patties {
   width: 40px;
   height: 6px;
-  background: var(--accent-clr);
+  background: var(--secondary-accent-clr);
   border-radius: 5px;
 }
 
