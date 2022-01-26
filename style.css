@@ -13,11 +13,12 @@
 
 :root {
   --main-background-clr: #1A1A1C;
+  --secondary-background-clr: #58585814;
   --fs-h1: clamp(2.5rem, 2vw + 1.8rem, 4rem);
   --fs-h2: clamp(1.8rem, 1vw + 1.5rem, 2.5rem);
   --fs-h3: clamp(1.4rem, 1vw + 1rem, 2rem);
   --fs-p: clamp(1rem, 1vw + 0.5rem, 1.1rem);
-  --accent-clr: #321454;
+  --accent-clr: #58585814;
   --main-font-clr: #D1D7E0;
   --main-ff: "Quicksand", sans-serif;
 }
@@ -288,8 +289,7 @@ section > p {
   border-radius: 100px;
   display: inline-block;
   position: relative;
-  background: #35506b24;
-  opacity: 0.4;
+  background: var(--secondary-background-clr);
 }
 
 .progress-bars::after {
@@ -301,7 +301,6 @@ section > p {
   height: 100%;
   border-radius: inherit;
   background: var(--accent-clr);
-  opacity: 1;
 }
 
 #html-pb::after {
@@ -421,7 +420,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  background: #58585814;
+  background: var(--secondary-background-clr);
   padding: 1em 1.5em;
   border-radius: 10px;
 }
@@ -431,8 +430,9 @@ footer {
 }
 
 .searching-filter input {
-  background: #58585814;
+  background: var(--secondary-background-clr);
   border-bottom: 1px solid var(--accent-clr);
+  padding: 0 0.25rem;
   transition: all 250ms;
 }
 
