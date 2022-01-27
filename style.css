@@ -159,7 +159,7 @@ header {
 
 #hamburger-nav {
   display: none;
-  height: 35px;
+  height: 27px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -168,12 +168,12 @@ header {
 #cross-nav {
   display: none;
   float: right;
-  padding: 0.5em;
+  transform: translate(5px, -10px);
 }
 
 .patties {
-  width: 40px;
-  height: 6px;
+  width: 33px;
+  height: 5px;
   background: var(--accent-clr);
   border-radius: 5px;
 }
