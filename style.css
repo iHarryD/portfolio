@@ -150,6 +150,11 @@ button {
 
 /* Styling */
 
+*::selection {
+  background: #24586D;
+  color: 000;
+}
+
 header {
   display: flex;
   justify-content: space-between;
